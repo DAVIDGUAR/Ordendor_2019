@@ -17,8 +17,25 @@ public class Rato {
         this.modelo=modelo;
     }
 
-    public boolean isInhalambrico() {
-        return inhalambrico;
+    public String getInhalambrico() {
+        
+        if (inhalambrico==true){
+            
+           return "El raton es inhalambrico";
+            
+           
+           
+            
+        }else{
+            
+            return "El raton no es inhalambrico";
+            
+           
+        }
+            
+            
+        
+        
     }
 
     public String getModelo() {
