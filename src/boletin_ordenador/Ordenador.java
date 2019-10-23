@@ -32,15 +32,15 @@ public class Ordenador {
      public void CalcularPrezo(){
          float prezo;
          
-         prezo=procesador.getNucleos()+ prram*5+(true inhalambrico+1,5 || false inhalambrico +1) + numTeclas*0,7+pulgada*12;
+         prezo = procesador.getNucleos() + procesador.getRam()*5 + teclas.getNumTeclas()*0.7f + pantalla.getPulgadas()*12;
      }
     
     public void VisualizarAtributos(){
-        String atributos;
+      
         
-        atributos=nucleos+ram+inhalambrico,modelo,numTeclas,marca,pulgadas;
+      
         
-        System.out.println("nucleos = "+ordenador1.getNucleos+ "\nram = "+ordenador1.getRam+ "\n inhalambrico = "+ordenador1.getnumTeclas+);
+        System.out.println("nucleos = " + procesador.getNucleos() + "\nram = " + procesador.getRam() + "\nRaton modelo = " + raton.getModelo() + "\nInhalambrico = "+raton.getInhalambrico()+ "\nTeclado= " + teclas.getNumTeclas()+"\nMarca= "+pantalla.getMarca()+"\nPulgadas= "+pantalla.getPulgadas());
         
     }
     
